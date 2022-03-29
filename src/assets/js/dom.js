@@ -5,5 +5,6 @@ export function addClass(el, className) {
 }
 
 export function removeClass(el, className) {
+  console.log(el, className)
   el.classList.remove(className)
 }

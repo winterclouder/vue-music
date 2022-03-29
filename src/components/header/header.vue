@@ -18,7 +18,7 @@ export default {
   @import "@/assets/scss/variable.scss";
   @import "@/assets/scss/mixin.scss";
   .header {
-    height: 44px;
+    height: 45px;
     text-align: center;
     color: $color-theme;
     font-size: 0;
