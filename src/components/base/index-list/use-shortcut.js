@@ -1,6 +1,4 @@
-
-
-import { ref, watch, nextTick, computed } from 'vue'
+import { ref, computed } from 'vue'
 export default function useShortcut(props, groupRef) {
   const shortcutList = computed(() => {
     return props.data.map((group) => group.title)
